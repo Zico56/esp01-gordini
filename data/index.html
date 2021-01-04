@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>LED Control</title>
+		<link rel="stylesheet" type="text/css" href="style.css">		
+		<script src="script.js"></script>
+	</head>
+	<body>
+
+	<div class="header">	
+		<h1>Renault 8 "Gordini"</h1>
+		<h3>Heller - 1/24</h3>
+		<img src="gordini.jpg">
+	</div>
+		
+	<div class="main">
+		<div class="div_text">
+			<p>Veilleuse / Position</p>
+		</div>
+		<div class="div_switch">
+			<label class="switch">
+			<input id="0" type="checkbox" onclick="post(event);">
+				<span class="slider round"></span>
+			</label>
+		</div>
+	
+		<div class="div_text">
+			<p>Phares avant / Feux arri&egrave;re</p>
+		</div>
+		<div class="div_switch">
+			<label class="switch">
+				<input id="1" type="checkbox" onclick="post(event);">
+				<span class="slider round"></span>
+			</label>
+		</div>
+		
+		<div class="div_text">
+			<p>Longue port&eacute;e</p>
+		</div>
+		<div class="div_switch">
+			<label class="switch">
+				<input id="2" type="checkbox" onclick="post(event);">
+				<span class="slider round"></span>
+			</label>
+		</div>
+		
+		<div class="div_text">
+			<p>Warning</p>
+		</div>
+		<div class="div_switch">
+			<label class="switch">
+				<input id="3" type="checkbox" onclick="post(event);">
+				<span class="slider round"></span>
+			</label>
+		</div>	
+	</div>
+	
+	<div class="image">
+		<img src="r8.jpg">
+	</div>
+	
+	<div class="footer">		
+		<div>
+			<img src="heller.jpg">
+		</div>
+		<div>
+			<img src="renault.jpg">
+		</div>		
+	</div>	
+
+	</body>
+</html>
