@@ -110,6 +110,10 @@ void loop() {
         digitalWrite(BLINKER_LIGHTS, blinkerState);
       }
     }
+  } else {
+    if (!blinkerState) {
+      digitalWrite(BLINKER_LIGHTS, LOW);
+    }    
   }
 }
 
